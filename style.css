@@ -5,7 +5,7 @@ body {
 }
 
 #header {
-	background-image: url('OSM-Logo.jpg');
+	background-image: url('./resources/icons/OSM-Logo.jpg');
 	background-repeat: no-repeat;
 	background-position: 40px 6px;
 	height: 100px;

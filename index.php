@@ -30,12 +30,12 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 ?>
 </head>
 <body <?php if ($p->getCurrentPage() == "start") echo 'onload="drawmap();"' ?>>
-<div id="header">
-<h1><a href="?lang=<?=$t->getCurrentLanguage()?>">OpenSeaMap - <?=$t->tr("dieFreieSeekarte")?></a></h1>
-<div id="topmenu">
-	<?=$t->makeLanguageLinks("index.php?page=".$p->getCurrentPage()."&amp;")?>
-</div>
-</div>
+	<div id="header">
+		<h1><a href="?lang=<?=$t->getCurrentLanguage()?>">OpenSeaMap - <?=$t->tr("dieFreieSeekarte")?></a></h1>
+		<div id="topmenu">
+			<?=$t->makeLanguageLinks("index.php?page=".$p->getCurrentPage()."&amp;")?>
+		</div>
+	</div>
 <div id="menu">
 	<h2>Seekarte (Vollbild)</h2>
 	<ul>
@@ -57,7 +57,7 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 	</ul>
 	<h2><?=$t->tr("ÄhnlicheProjekte")?></h2>
 	<ul>
-		<li><a href="http://freietonne.openseamap.org/">FreieTonne</a></li>
+		<li><a href="http://freietonne.de">FreieTonne</a></li>
 	</ul>
 </div>
 <div id="content">
