@@ -46,6 +46,7 @@ $englisch = array(
 	/* Menu */
 	"Seekarte"=>"Seamap",
 	"Vollbild"=>"Fullscreen",
+	"VollbildAnzeigen"=>"Show Fullscreen",
 	"ÜberOpenSeaMap"=>"About OpenSeaMap",
 	"Impressum"=>"Imprint",
 	"Startseite"=>"Main Page",

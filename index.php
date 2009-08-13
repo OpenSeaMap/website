@@ -39,7 +39,6 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 <div id="menu">
 	<h2>Seekarte (Vollbild)</h2>
 	<ul>
-		<!--<li><a href="map/?lang=<?=$t->getCurrentLanguage()?>"><?=$t->tr("Vollbild")?></a></li>-->
 		<li><a href="map/?zoom=15&lat=54.18459&lon=12.08575&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Warnemünde</a></li>
 		<li><a href="map/?zoom=14&lat=54.3914&lon=10.19366&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Kieler Förde</a></li>
 	</ul>
