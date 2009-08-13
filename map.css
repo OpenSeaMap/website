@@ -1,0 +1,28 @@
+html,body {
+	background-color: #ffffff;
+	height: 100%;
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+	overflow: hidden;
+	color: #000000;
+}
+ 
+#map {
+	/*position: absolute;
+	top: 200px;
+	bottom: 10px;
+	right: 10px;
+	left: 220px;
+	*/
+	height: 400px;
+	border: 1px solid #AAA;
+}
+ 
+
+#osm {
+	font-size: 0.7em;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+

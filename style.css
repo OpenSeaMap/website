@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#header {
+	background-image: url('OSM-Logo.jpg');
+	background-repeat: no-repeat;
+	background-position: 40px 6px;
+	height: 100px;
+	
+}
+h1 {
+	margin: 0 0 0 200px;
+	background-color: #c0c0ff;
+	height: 60px;
+	padding: 10px 0 10px 20px;
+	
+}
+h1 a {
+	color: #27408B;
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+#topmenu {
+	margin-left: 200px;
+	height: 22px;
+	border: 0px solid #000;
+	background-color: #EEE;
+}
+#topmenu ul {
+	margin: 0 10px 0 0;
+	padding: 0;
+	float:right;
+}
+#topmenu ul li {
+	list-style: none;
+	display: block;
+	float: left;
+	
+}
+#topmenu a {
+	text-decoration: none;
+	padding: 0 5px 0 5px;
+	color: #000;
+}
+#topmenu a:hover {
+	background-color: #AAA;
+}
+#topmenu a.currentLanguage {
+	background-color: #AAA;
+}
+
+#menu {
+	float:left;
+	width: 200px;
+	background-color: #EEE;
+}
+#menu h2 {
+	margin: 0;
+	padding: 4px;
+	font-size: 16px;
+	color: #27408B;
+	background-color: #c0c0ff;
+	text-align: center;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li {
+	margin: 0;
+	padding: 0;
+}
+#menu ul li a {
+	color: #000;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 4px 0 4px 12px;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #AAA;
+}
+#content {
+	margin-left: 200px;
+	padding: 20px;
+}
+#mapLinks {
+	margin-bottom: 4px;
+}
+#menu a[href^="http://"]::after {
+	content: "\2197\00A0";
+}
+
