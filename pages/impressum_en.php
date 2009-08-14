@@ -1,8 +1,6 @@
-englisch
+<h2>Credits</h2>
 
-<h2>Impressum</h2>
-
-<h4>Anbieter und Verantwortlicher für den Inhalt von openseamap.org:</h4>
+<h4>Provider & responsibilty for OpenSeaMap</h4>
 
 <pre>
 Olaf Hannemann
@@ -12,17 +10,18 @@ Dorfstraße 17
 
 <p><pre>ohannemann@opensource-werkstatt-stubben.org</pre></p>
 
-<h4>Rechtliche Hinweise</h4>
-<h5>1. Haftungsbeschränkung</h5>
+<h4>Legal Notices</h4>
+<h5>1. Restrictions</h5>
 
-<p>Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers. Namentlich gekennzeichnete Beiträge geben die Meinung des jeweiligen Autors und nicht immer die Meinung des Anbieters wieder.</p>
+<p>The content on this site will be monitored with the greatest possible care, however the provider does not vouch for the accuracy and completeness of the content.  Usage of the content of the website is at the users own risk.  Named contributions do not reflect the views of the author or the provider.</p>
 
-<h5>2. Amtliche Seekarten</h5>
+<h5>2. Official Charts</h5>
 
-<p>Die Benutzung aktueller amtlicher Seekarten gehört zu einer guten Seemannschaft.
-OpenSeaMap dient zur Törnvorbereitung und als Übersicht und Ergänzung zu anderen Seekarten. OpenSeaMap kann keine amtliche Karte ersetzen.</p>
+<p>Good seamanship requires the use of official charts.  OpenSeaMap is for use with other charts and cannot replace official charts.  Use is at your own risk.</p>
 
-<h5>3. Externe Links</h5>
+<h5>3. External Links</h5>
 
-<p>Diese Website enthält Verknüpfungen zu Websites Dritter ("externe Links"). Diese Websites unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat bei der erstmaligen Verknüpfung der externen Links die fremden Inhalte daraufhin überprüft, ob etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte der verknüpften Seiten. Das Setzen von externen Links bedeutet nicht, dass sich der Anbieter die hinter dem Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle dieser externen Links ist für den Anbieter ohne konkrete Hinweise auf Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen werden jedoch derartige externe Links unverzüglich gelöscht. </p>
+<p>This website contains links to third party websites.  These sites are the property and liability of their respective owners.  The supplier has checked the links when they were added; at the time there were no apparent bad sites.  However, the provider has no control over the current revisions.  The provision of these external links does not mean the provider controls the content or takes responsibility for that content.  If notified of dangerous sites, these links will be removed.</p>
+
+Please note; these notices were translated from the original German and therefore should not be taken as completely correct.
 
