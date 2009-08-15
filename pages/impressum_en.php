@@ -1,4 +1,4 @@
-<h2>Credits</h2>
+<h2>Legal Notices</h2>
 
 <h4>Provider & responsibilty for OpenSeaMap</h4>
 
