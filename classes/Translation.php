@@ -32,6 +32,7 @@ $deutsch = array(
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap",
 
 	/* Legende */
+	"Legende"=>"Legende",
 	"Hafen"=>"Hafen",
 	"Seezeichen"=>"Seezeichen",
 	"Leuchtfeuer"=>"Leuchtfeuer",
@@ -62,7 +63,7 @@ $englisch = array(
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/OpenSeaMap",
 
 	/* Legende */
-	"Legende"=>"Legend",
+	"Legende"=>"Map Key",
 	"Hafen"=>"Harbour",
 	"Seezeichen"=>"Seamarks",
 	"Leuchtfeuer"=>"Lights",
