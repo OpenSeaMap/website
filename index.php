@@ -23,7 +23,7 @@ $p->setDefaultPageLink("?lang=".$t->getCurrentLanguage()."&amp;");
 <meta http-equiv="content-language" content="de" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <?php
-/* JavaScript einbinden falls nötig */
+/* Include JavaScript if needed */
 if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 	include($headerFile);
 }
@@ -37,7 +37,7 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 		</div>
 	</div>
 	<div id="menu">
-	<h2>Seekarte (Vollbild)</h2>
+	<h2><?=$t->tr("SeaChart")?></h2>
 	<ul>
 		<li><a href="map/?zoom=15&lat=54.18459&lon=12.08575&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Warnemünde</a></li>
 		<li><a href="map/?zoom=14&lat=54.3914&lon=10.19366&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Kieler Förde</a></li>
@@ -63,7 +63,7 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 		<?php include($p->makeIncludePage("pages/")); ?>
 	</div>
 	<div id="rights">
-			<img src="resources/icons/somerights20.png" title="This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License" onClick="window.open('http://creativecommons.org/licenses/by-sa/2.0')" />
+			<img src="resources/icons/somerights20.png" title="<?=$t->tr("SomeRights")?>" onClick="window.open('http://creativecommons.org/licenses/by-sa/2.0')" />
 	</div>
 
 </body>

@@ -19,11 +19,13 @@ $deutsch = array(
 	"Seekarte"=>"Seekarte",
 	"Vollbild"=>"Vollbild",
 	"VollbildAnzeigen"=>"Karte im Vollbild anzeigen",
+	"SeaChart"=>"Seekarte (Vollbild)",
 	"ÜberOpenSeaMap"=>"Über OpenSeaMap",
 	"Impressum"=>"Impressum",
 	"Startseite"=>"Startseite",
 	"ÄhnlicheProjekte"=>"Ähnliche Projekte",
-
+	"SomeRights"=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
+	
 	/* Urls */
 	"UrlOSM"=>"http://openstreetmap.de",
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Hauptseite",
@@ -47,10 +49,12 @@ $englisch = array(
 	"Seekarte"=>"Seamap",
 	"Vollbild"=>"Fullscreen",
 	"VollbildAnzeigen"=>"Show Fullscreen",
+	"SeaChart"=>"Sea Chart (Full Screen)",
 	"ÜberOpenSeaMap"=>"About OpenSeaMap",
-	"Impressum"=>"Imprint",
+	"Impressum"=>"Legal",
 	"Startseite"=>"Main Page",
 	"ÄhnlicheProjekte"=>"Similiar Projects",
+	"SomeRights"=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
 
 	/* Urls */
 	"UrlOSM"=>"http://openstreetmap.org",
