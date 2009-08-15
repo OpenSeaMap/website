@@ -36,7 +36,7 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 			<?=$t->makeLanguageLinks("index.php?page=".$p->getCurrentPage()."&amp;")?>
 		</div>
 	</div>
-<div id="menu">
+	<div id="menu">
 	<h2>Seekarte (Vollbild)</h2>
 	<ul>
 		<li><a href="map/?zoom=15&lat=54.18459&lon=12.08575&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Warnemünde</a></li>
@@ -58,11 +58,13 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 	<ul>
 		<li><a href="http://freietonne.de">FreieTonne</a></li>
 	</ul>
-</div>
-<div id="content">
-<?php include($p->makeIncludePage("pages/")); ?>
-
-</div>
+	</div>
+	<div id="content">
+		<?php include($p->makeIncludePage("pages/")); ?>
+	</div>
+	<div id="rights">
+			<img src="resources/icons/somerights20.png" title="This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License" onClick="window.open('http://creativecommons.org/licenses/by-sa/2.0')" />
+	</div>
 
 </body>
 </html>
