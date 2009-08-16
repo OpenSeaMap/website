@@ -2,6 +2,7 @@
 <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
 
 		<script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+		<script type="text/javascript" src="map/haefen.js"></script>
 		<script type="text/javascript">
 			var map;
 			var layer_mapnik;
@@ -129,6 +130,9 @@
 
 				map.addLayers([layer_mapnik, layer_tah, layer_markers]);
 				jumpTo(lon, lat, zoom);
+				
+				// Haefen hinzufuegen
+				init_haefen(map, "./map/");
 
 
 			}
