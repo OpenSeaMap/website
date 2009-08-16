@@ -44,7 +44,7 @@ $englisch = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
 
-	"dieFreieSeekarte"=>"the free Seamap",
+	"dieFreieSeekarte"=>"the free nautical chart",
 
 	/* Menu */
 	"Seekarte"=>"Seamap",
