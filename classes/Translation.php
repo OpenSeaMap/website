@@ -50,7 +50,7 @@ $englisch = array(
 	"Seekarte"=>"Seamap",
 	"Vollbild"=>"Fullscreen",
 	"VollbildAnzeigen"=>"Show Fullscreen",
-	"SeaChart"=>"Sea Chart (Full Screen)",
+	"SeaChart"=>"Nautical Chart (Fullscreen)",
 	"ÜberOpenSeaMap"=>"About OpenSeaMap",
 	"Impressum"=>"Legal",
 	"Startseite"=>"Main Page",
@@ -72,8 +72,8 @@ $englisch = array(
 
 /* Die Sprachen hinzufügen */
 
-$t->addLanguage("de",$deutsch,"Deutsch");
-$t->addLanguage("en",$englisch,"English");
+$t->addLanguage("de",$deutsch,"deutsch");
+$t->addLanguage("en",$englisch,"english");
 
 
 
