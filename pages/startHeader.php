@@ -125,7 +125,7 @@
 				// Osmarender
 				layer_tah = new OpenLayers.Layer.OSM.Osmarender("Osmarender");
 				// Seezeichen
-				layer_markers = new OpenLayers.Layer.TMS("Seezeichen", "tiles/",
+				layer_markers = new OpenLayers.Layer.TMS("Seezeichen", "http://openseamap.org/tiles/",
 				{ numZoomLevels: 18, type: 'png', getURL: getTileURL, isBaseLayer: false, displayOutsideMaxExtent: true});
 
 				map.addLayers([layer_mapnik, layer_tah, layer_markers]);

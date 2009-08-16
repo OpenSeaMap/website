@@ -67,7 +67,7 @@ $englisch = array(
 	"Hafen"=>"Harbour",
 	"Seezeichen"=>"Seamarks",
 	"Leuchtfeuer"=>"Lights",
-	"BrückenSchleusen"=>"Bridges/Schleusen",
+	"BrückenSchleusen"=>"Bridges/Locks",
 );
 
 /* Die Sprachen hinzufügen */
