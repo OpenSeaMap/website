@@ -46,9 +46,26 @@ $deutsch = array(
 	"slipway"=>"Bootsrampe, Slipanlage",
 	"harbour_master"=>"Hafenmeister",
 	"waste_disposal"=>"Fäkalienentsorgung",
+	//Seamarks
+	"safe_water"=>"Sicheres Fahrwasser, Ansteuerung",
+	"lateral_port"=>"Fahrwassertonne Backbord",
+	"lateral_starboard"=>"Fahrwassertonne Steuerbord",
+	"lateral_pref_port"=>"Durchgehendes Fahrwasser: Backbord",
+	"lateral_pref_starboard"=>"Durchgehendes Fahrwasser: Steuerbord",
+	"cardinal_north"=>"Seezeichen nördlich der Gefahrenstelle",
+	"cardinal_east"=>"Seezeichen östlich der Gefahrenstelle",
+	"cardinal_south"=>"Seezeichen südlich der Gefahrenstelle",
+	"cardinal_west"=>"Seezeichen westlich der Gefahrenstelle",
+	"isolated_danger"=>"Einzelgefahrenzeichen",
+	"special_purpose"=>"Kennzeichnung besonderer Gebiete",
+	//Lights
+	"lighthouse"=>"Leuchtturm",
+	"beacon_green"=>"Molenfeuer grünes Licht",
+	"beacon_red"=>"Molenfeuer rotes Licht",
+	"beacon_white"=>"Molenfeuer weißes Licht",
 );
 
-// English ----------------------------------------------------------------------------------------------------------------------
+// English ---------------------------------------------------------------------------------------------------------------------
 $englisch = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
@@ -84,6 +101,23 @@ $englisch = array(
 	"slipway"=>"Slipway",
 	"harbour_master"=>"Harbour Master",
 	"waste_disposal"=>"Waste Dispodal",
+	//Seamarks
+	"safe_water"=>"Safe water",
+	"lateral_port"=>"Lateral mark port",
+	"lateral_starboard"=>"Lateral mark starboard",
+	"lateral_pref_port"=>"Preferred channel: port",
+	"lateral_pref_starboard"=>"Preferred channel: starboard",
+	"cardinal_north"=>"Cardinal mark north",
+	"cardinal_east"=>"Cardinal mark east",
+	"cardinal_south"=>"Cardinal mark south",
+	"cardinal_west"=>"Cardinal mark west",
+	"isolated_danger"=>"Isolated danger mark",
+	"special_purpose"=>"Special mark",
+	//Lights
+	"lighthouse"=>"Lighthouse",
+	"beacon_green"=>"Beacon green light",
+	"beacon_red"=>"Beacon red light",
+	"beacon_white"=>"Beacon white light",
 );
 
 /* Add languages*/
