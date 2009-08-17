@@ -1,21 +1,23 @@
 <?php
 
-/* Neue Übersetzungsinstanz erstellen */
+/* Create a new instance for translation */
 $t = new Translation();
 
 /* Aktuell ausgewählte Sprache soll der URL-Parameter 'lang' (...?lang=de) sein */
 $t->setCurrentLanguage($_GET['lang']);
-/* Standardsprache festlegen */
+
+/* Define the default language */
 $t->setDefaultLanguage("en");
 
-/* Ein Array für jede Sprache anlegen */
+/* Create an array for each language */
+// German -----------------------------------------------------------------------------------------------------------------------
 $deutsch = array(
 	"langCode"=>"de",
 	"pageDoesNotExist"=>"Seite nicht gefunden.",
 
 	"dieFreieSeekarte"=>"die freie Seekarte",
 
-	/* Menu */
+	// Menu ---------------------------------------------------------
 	"Seekarte"=>"Seekarte",
 	"Vollbild"=>"Vollbild",
 	"VollbildAnzeigen"=>"Karte im Vollbild anzeigen",
@@ -25,28 +27,35 @@ $deutsch = array(
 	"Startseite"=>"Startseite",
 	"ÄhnlicheProjekte"=>"Ähnliche Projekte",
 	"SomeRights"=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
-	
-	/* Urls */
+
+	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.de",
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Hauptseite",
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap",
 
-	/* Legende */
+	// Legende ------------------------------------------------------
 	"Legende"=>"Legende",
 	"Hafen"=>"Hafen",
 	"Seezeichen"=>"Seezeichen",
 	"Leuchtfeuer"=>"Leuchtfeuer",
 	"BrückenSchleusen"=>"Brücken/Schleusen",
-
+	//Harbour
+	"breakwater"=>"Wellenbrecher",
+	"pier"=>"Steg, Schwimmsteg, Seebrücke",
+	"crane"=>"Kran",
+	"slipway"=>"Bootsrampe, Slipanlage",
+	"harbour_master"=>"Hafenmeister",
+	"waste_disposal"=>"Fäkalienentsorgung",
 );
 
+// English ----------------------------------------------------------------------------------------------------------------------
 $englisch = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
 
 	"dieFreieSeekarte"=>"the free nautical chart",
 
-	/* Menu */
+	// Menu ---------------------------------------------------------
 	"Seekarte"=>"Seamap",
 	"Vollbild"=>"Fullscreen",
 	"VollbildAnzeigen"=>"Show Fullscreen",
@@ -57,20 +66,27 @@ $englisch = array(
 	"ÄhnlicheProjekte"=>"Similiar Projects",
 	"SomeRights"=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
 
-	/* Urls */
+	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.org",
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Main_Page",
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/OpenSeaMap",
 
-	/* Legende */
+	// Legende ------------------------------------------------------
 	"Legende"=>"Map Key",
 	"Hafen"=>"Harbour",
 	"Seezeichen"=>"Seamarks",
 	"Leuchtfeuer"=>"Lights",
 	"BrückenSchleusen"=>"Bridges/Locks",
+	//Harbour
+	"breakwater"=>"Breakwater",
+	"pier"=>"Pier",
+	"crane"=>"Crane",
+	"slipway"=>"Slipway",
+	"harbour_master"=>"Harbour Master",
+	"waste_disposal"=>"Waste Dispodal",
 );
 
-/* Die Sprachen hinzufügen */
+/* Add languages*/
 
 $t->addLanguage("de",$deutsch,"deutsch");
 $t->addLanguage("en",$englisch,"english");
