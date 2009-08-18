@@ -75,17 +75,17 @@ $englisch = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
 
-	"dieFreieSeekarte"=>"the free nautical chart",
+	"dieFreieSeekarte"=>"The free nautical chart",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"=>"Seamap",
+	"Seekarte"=>"Nautical Chart",
 	"Vollbild"=>"Fullscreen",
 	"VollbildAnzeigen"=>"Show Fullscreen",
 	"SeaChart"=>"Nautical Chart (Fullscreen)",
 	"ÜberOpenSeaMap"=>"About OpenSeaMap",
 	"Impressum"=>"Legal",
 	"Startseite"=>"Main Page",
-	"ÄhnlicheProjekte"=>"Similiar Projects",
+	"ÄhnlicheProjekte"=>"Similar Projects",
 	"SomeRights"=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
 
 	// Urls ---------------------------------------------------------
@@ -96,7 +96,7 @@ $englisch = array(
 	// Legende ------------------------------------------------------
 	"Legende"=>"Map Key",
 	"Hafen"=>"Harbour",
-	"Seezeichen"=>"Seamarks",
+	"Seezeichen"=>"Sea Marks",
 	"Leuchtfeuer"=>"Lights",
 	"BrückenSchleusen"=>"Bridges/Locks",
 	//Harbour
@@ -105,24 +105,24 @@ $englisch = array(
 	"crane"=>"Crane",
 	"slipway"=>"Slipway",
 	"harbour_master"=>"Harbour Master",
-	"waste_disposal"=>"Waste Dispodal",
+	"waste_disposal"=>"Waste Disposal",
 	//Seamarks
 	"safe_water"=>"Safe water",
-	"lateral_port"=>"Lateral mark port",
-	"lateral_starboard"=>"Lateral mark starboard",
+	"lateral_port"=>"Port mark",
+	"lateral_starboard"=>"Starboard mark",
 	"lateral_pref_port"=>"Preferred channel: port",
 	"lateral_pref_starboard"=>"Preferred channel: starboard",
-	"cardinal_north"=>"Cardinal mark north",
-	"cardinal_east"=>"Cardinal mark east",
-	"cardinal_south"=>"Cardinal mark south",
-	"cardinal_west"=>"Cardinal mark west",
+	"cardinal_north"=>"North cardinal mark",
+	"cardinal_east"=>"East cardinal mark",
+	"cardinal_south"=>"South cardinal mark",
+	"cardinal_west"=>"West cardinal mark",
 	"isolated_danger"=>"Isolated danger mark",
 	"special_purpose"=>"Special mark",
 	//Lights
 	"lighthouse"=>"Lighthouse",
-	"beacon_green"=>"Beacon green light",
-	"beacon_red"=>"Beacon red light",
-	"beacon_white"=>"Beacon white light",
+	"beacon_green"=>"Green beacon",
+	"beacon_red"=>"Red beacon",
+	"beacon_white"=>"White beacon",
 	//Locks
 	"lock_gate"=>"Lock gate",
 	"lock"=>"Lock",
