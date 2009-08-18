@@ -63,6 +63,11 @@ $deutsch = array(
 	"beacon_green"=>"Molenfeuer grünes Licht",
 	"beacon_red"=>"Molenfeuer rotes Licht",
 	"beacon_white"=>"Molenfeuer weißes Licht",
+	//Locks
+	"lock_gate"=>"Schleusentor",
+	"lock"=>"Schleuse",
+	"wier_small"=>"Wehr (klein)",
+	"wier_big"=>"Wehr (groß)",
 );
 
 // English ---------------------------------------------------------------------------------------------------------------------
@@ -118,6 +123,11 @@ $englisch = array(
 	"beacon_green"=>"Beacon green light",
 	"beacon_red"=>"Beacon red light",
 	"beacon_white"=>"Beacon white light",
+	//Locks
+	"lock_gate"=>"Lock gate",
+	"lock"=>"Lock",
+	"wier_small"=>"Wier (small)",
+	"wier_big"=>"Wier (big)",
 );
 
 /* Add languages*/
