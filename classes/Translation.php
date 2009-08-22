@@ -132,8 +132,8 @@ $englisch = array(
 
 /* Add languages*/
 
-$t->addLanguage("de",$deutsch,"deutsch");
-$t->addLanguage("en",$englisch,"english");
+$t->addLanguage("de",$deutsch,"Deutsch");
+$t->addLanguage("en",$englisch,"English");
 
 
 
