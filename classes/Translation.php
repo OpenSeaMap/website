@@ -11,7 +11,7 @@ $t->setDefaultLanguage("en");
 
 /* Create an array for each language */
 // German -----------------------------------------------------------------------------------------------------------------------
-$deutsch = array(
+$german = array(
 	"langCode"=>"de",
 	"pageDoesNotExist"=>"Seite nicht gefunden.",
 
@@ -71,7 +71,7 @@ $deutsch = array(
 );
 
 // English ---------------------------------------------------------------------------------------------------------------------
-$englisch = array(
+$english = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
 
@@ -130,11 +130,132 @@ $englisch = array(
 	"wier_big"=>"Wier (big)",
 );
 
-/* Add languages*/
+// French -----------------------------------------------------------------------------------------------------------------------
+$french = array(
+	"langCode"=>"fr",
+	"pageDoesNotExist"=>"Page not found.",
 
-$t->addLanguage("de",$deutsch,"Deutsch");
-$t->addLanguage("en",$englisch,"English");
+	"dieFreieSeekarte"=>"The free nautical chart",
 
+	// Menu ---------------------------------------------------------
+	"Seekarte"=>"Nautical Chart",
+	"Vollbild"=>"Fullscreen",
+	"VollbildAnzeigen"=>"Show Fullscreen",
+	"SeaChart"=>"Nautical Chart (Fullscreen)",
+	"ÜberOpenSeaMap"=>"About OpenSeaMap",
+	"Impressum"=>"Legal",
+	"Startseite"=>"Main Page",
+	"ÄhnlicheProjekte"=>"Similar Projects",
+	"SomeRights"=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
+
+	// Urls ---------------------------------------------------------
+	"UrlOSM"=>"http://openstreetmap.org",
+	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Main_Page",
+	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/OpenSeaMap",
+
+	// Legende ------------------------------------------------------
+	"Legende"=>"Map Key",
+	"Hafen"=>"Harbour",
+	"Seezeichen"=>"Sea Marks",
+	"Leuchtfeuer"=>"Lights",
+	"BrückenSchleusen"=>"Bridges/Locks",
+	//Harbour
+	"breakwater"=>"Breakwater",
+	"pier"=>"Pier",
+	"crane"=>"Crane",
+	"slipway"=>"Slipway",
+	"harbour_master"=>"Harbour Master",
+	"waste_disposal"=>"Waste Disposal",
+	//Seamarks
+	"safe_water"=>"Safe water",
+	"lateral_port"=>"Port mark",
+	"lateral_starboard"=>"Starboard mark",
+	"lateral_pref_port"=>"Preferred channel: port",
+	"lateral_pref_starboard"=>"Preferred channel: starboard",
+	"cardinal_north"=>"North cardinal mark",
+	"cardinal_east"=>"East cardinal mark",
+	"cardinal_south"=>"South cardinal mark",
+	"cardinal_west"=>"West cardinal mark",
+	"isolated_danger"=>"Isolated danger mark",
+	"special_purpose"=>"Special mark",
+	//Lights
+	"lighthouse"=>"Lighthouse",
+	"beacon_green"=>"Green beacon",
+	"beacon_red"=>"Red beacon",
+	"beacon_white"=>"White beacon",
+	//Locks
+	"lock_gate"=>"Lock gate",
+	"lock"=>"Lock",
+	"wier_small"=>"Wier (small)",
+	"wier_big"=>"Wier (big)",
+);
+
+// Italian -----------------------------------------------------------------------------------------------------------------------
+$italian = array(
+	"langCode"=>"it",
+	"pageDoesNotExist"=>"Page not found.",
+
+	"dieFreieSeekarte"=>"The free nautical chart",
+
+	// Menu ---------------------------------------------------------
+	"Seekarte"=>"Nautical Chart",
+	"Vollbild"=>"Fullscreen",
+	"VollbildAnzeigen"=>"Show Fullscreen",
+	"SeaChart"=>"Nautical Chart (Fullscreen)",
+	"ÜberOpenSeaMap"=>"About OpenSeaMap",
+	"Impressum"=>"Legal",
+	"Startseite"=>"Main Page",
+	"ÄhnlicheProjekte"=>"Similar Projects",
+	"SomeRights"=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
+
+	// Urls ---------------------------------------------------------
+	"UrlOSM"=>"http://openstreetmap.org",
+	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Main_Page",
+	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/OpenSeaMap",
+
+	// Legende ------------------------------------------------------
+	"Legende"=>"Map Key",
+	"Hafen"=>"Harbour",
+	"Seezeichen"=>"Sea Marks",
+	"Leuchtfeuer"=>"Lights",
+	"BrückenSchleusen"=>"Bridges/Locks",
+	//Harbour
+	"breakwater"=>"Breakwater",
+	"pier"=>"Pier",
+	"crane"=>"Crane",
+	"slipway"=>"Slipway",
+	"harbour_master"=>"Harbour Master",
+	"waste_disposal"=>"Waste Disposal",
+	//Seamarks
+	"safe_water"=>"Safe water",
+	"lateral_port"=>"Port mark",
+	"lateral_starboard"=>"Starboard mark",
+	"lateral_pref_port"=>"Preferred channel: port",
+	"lateral_pref_starboard"=>"Preferred channel: starboard",
+	"cardinal_north"=>"North cardinal mark",
+	"cardinal_east"=>"East cardinal mark",
+	"cardinal_south"=>"South cardinal mark",
+	"cardinal_west"=>"West cardinal mark",
+	"isolated_danger"=>"Isolated danger mark",
+	"special_purpose"=>"Special mark",
+	//Lights
+	"lighthouse"=>"Lighthouse",
+	"beacon_green"=>"Green beacon",
+	"beacon_red"=>"Red beacon",
+	"beacon_white"=>"White beacon",
+	//Locks
+	"lock_gate"=>"Lock gate",
+	"lock"=>"Lock",
+	"wier_small"=>"Wier (small)",
+	"wier_big"=>"Wier (big)",
+);
+
+
+//Add languages
+$t->addLanguage("de",$german,"Deutsch");
+$t->addLanguage("en",$english,"English");
+$t->addLanguage("fr",$french,"Francais");
+$t->addLanguage("it",$italian,"Italiano");
 
 
 class Translation {
