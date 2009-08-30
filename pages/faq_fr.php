@@ -27,7 +27,7 @@
 					Pour en savoir plus, contacter : <a href="mailto:ohannemann@opensource-werkstatt-stubben.org?cc=liste12A45q7@gmx.de,peio@justmagic.com&amp;subject=Programmierer%20f&uuml;r%20OpenSeaMap">Olaf</a>
 				<li>Parlez-vous plusieurs <b>langues</b> ?<br />
 					Nous souhaiterions proposer OpenSeaMap dans le plus de langues possibles. Si vous pouvez traduire le wiki ou le site web dans votre langue, n'hésitez pas à vous signaler.<br />
-					Pour en savoir plus, contacter : <a href="mailto:liste12A45q7@gmx.de?cc=ohannemann@opensource-werkstatt-stubben.org,peio@justmagic.com&amp;subject=&Uuml;bersetzer%20f&uuml;r%20OpenSeaMap">Markus</a>
+					Pour en savoir plus, contacter : <a href="mailto:tristan.thomas@wikinewsie.org">Tristan</a>
 				<li>Etes-vous <b>designer</b> ou <b>graphiste</b> ?<br />
 					Un dessin vaut mieux qu'un long discours. Vous pourriez ainsi illustrer nos pages wiki, créer des icônes pour les cartes, optimiser la mise en page ainsi que l'organisation des images.<br />
 					Nous serions heureux de vous en dire plus : <a href="mailto:liste12A45q7@gmx.de?cc=ohannemann@opensource-werkstatt-stubben.org,peio@justmagic.com&amp;subject=Grafiker%20f&uuml;r%20OpenSeaMap">Markus</a>
