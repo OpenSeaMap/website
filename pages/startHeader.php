@@ -4,10 +4,14 @@
 		<script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
 		<script type="text/javascript" src="map/haefen.js"></script>
 		<script type="text/javascript">
+
 			var map;
 			var layer_mapnik;
 			var layer_tah;
-			var layer_markers;
+			var layer_seamark;
+
+			// Set current language for internationalization
+			OpenLayers.Lang.setCode("<?= $t->getCurrentLanguage() ?>");
 
 			function jumpTo(lon, lat, zoom) {
 				var x = Lon2Merc(lon);
@@ -27,7 +31,6 @@
 			}
  
 			function addMarker(layer, lon, lat, popupContentHTML) {
-			
 				var ll = new OpenLayers.LonLat(Lon2Merc(lon), Lat2Merc(lat));
 				var feature = new OpenLayers.Feature(layer, ll);
 				feature.closeBox = true;
@@ -54,25 +57,6 @@
 				map.addPopup(feature.createPopup(feature.closeBox));
 			}
  
-			function getCycleTileURL(bounds) {
-				var res = this.map.getResolution();
-				var x = Math.round((bounds.left - this.maxExtent.left) / (res * this.tileSize.w));
-				var y = Math.round((this.maxExtent.top - bounds.top) / (res * this.tileSize.h));
-				var z = this.map.getZoom();
-				var limit = Math.pow(2, z);
-	
-				if (y < 0 || y >= limit)
-				{
-						return null;
-				}
-				else
-				{
-						x = ((x % limit) + limit) % limit;
-	
-						return this.url + z + "/" + x + "/" + y + "." + this.type;
-				}
-			}
-			
 			function getTileURL(bounds) {
 				var res = this.map.getResolution();
 				var x = Math.round((bounds.left - this.maxExtent.left) / (res * this.tileSize.w));
@@ -92,13 +76,8 @@
 				}
 			}
 
-
 			function drawmap() {
-				// Popup und Popuptext
-				var popuptext="<font color=\"black\"><b>OpenSource-Werkstatt</b></font>";
-				OpenLayers.Lang.setCode('de');
-
-				// Position und Zoomstufe der Karte
+				// Position and zoomlevel of the map
 				var lon = 12.0915;
 				var lat = 54.1878;
 				var zoom = 15;
@@ -107,8 +86,10 @@
 					projection: new OpenLayers.Projection("EPSG:900913"),
 					displayProjection: new OpenLayers.Projection("EPSG:4326"),
 					controls: [
-						new OpenLayers.Control.MouseDefaults(),
+						new OpenLayers.Control.Navigation(),
+						new OpenLayers.Control.ScaleLine({topOutUnits : "nmi", bottomOutUnits: "km", topInUnits: 'nmi', bottomInUnits: 'km', maxWidth: '40'}),
 						new OpenLayers.Control.LayerSwitcher(),
+						new OpenLayers.Control.MousePosition(),
 						new OpenLayers.Control.PanZoomBar()],
 						maxExtent:
 						new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34),
@@ -116,25 +97,21 @@
 					maxResolution: 156543,
 					units: 'meters'
 				});
-				
-				
-				// Layer hinzufuegen
-				
+
+				// Add Layers to map-------------------------------------------------------------------------------------------------------
 				// Mapnik
 				layer_mapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
 				// Osmarender
 				layer_tah = new OpenLayers.Layer.OSM.Osmarender("Osmarender");
-				// Seezeichen
-				layer_markers = new OpenLayers.Layer.TMS("Seezeichen", "http://openseamap.org/tiles/",
+				// Seamark
+				layer_seamark = new OpenLayers.Layer.TMS("<?=$t->tr("Seezeichen")?>", "http://tiles.openseamap.org/seamark/",
 				{ numZoomLevels: 18, type: 'png', getURL: getTileURL, isBaseLayer: false, displayOutsideMaxExtent: true});
 
-				map.addLayers([layer_mapnik, layer_tah, layer_markers]);
+				map.addLayers([layer_mapnik, layer_tah, layer_seamark]);
 				jumpTo(lon, lat, zoom);
-				
-				// Haefen hinzufuegen
+
+				// Add harbour layer
 				init_haefen(map, "./map/");
-
-
 			}
 		</script>
 
