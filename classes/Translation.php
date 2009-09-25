@@ -40,6 +40,7 @@ $german = array(
 	"login"=>"Anmelden",
 	"logout"=>"Abmelden",
 	"help"=>"Hilfe",
+	"language"=>"Sprache",
 
 	// Editor--------------------------------------------------------
 	"add"=>"Hinzufügen",
@@ -167,6 +168,7 @@ $english = array(
 	"login"=>"Login",
 	"logout"=>"Logout",
 	"help"=>"Help",
+	"language"=>"Language",
 
 	// Editor--------------------------------------------------------
 	"add"=>"Add",
