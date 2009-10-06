@@ -39,6 +39,7 @@ $german = array(
 	"delete"=>"Löschen",
 	"login"=>"Anmelden",
 	"logout"=>"Abmelden",
+	"createAccount"=>"Benutzerkonto erstellen",
 	"help"=>"Hilfe",
 	"language"=>"Sprache",
 
@@ -95,6 +96,7 @@ $german = array(
 	"yellow"=>"Gelb",
 	"character"=>"Kennung",
 	"period"=>"Wiederkehr",
+	"haveAccount"=>"Sie haben noch kein<br/>OSM Benutzerkonto?",
 	
 	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.de",
@@ -167,6 +169,7 @@ $english = array(
 	"delete"=>"Delete",
 	"login"=>"Login",
 	"logout"=>"Logout",
+	"createAccount"=>"Create New Account",
 	"help"=>"Help",
 	"language"=>"Language",
 
@@ -223,6 +226,7 @@ $english = array(
 	"yellow"=>"yellow",
 	"character"=>"Character",
 	"period"=>"Period",
+	"haveAccount"=>"Don't have an OSM<br/>Account yet? ",
 
 	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.org",
