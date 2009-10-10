@@ -22,13 +22,15 @@ include "lg-fr.php";
 // Italian
 include "lg-it.php";
 
-
+// Spanish
+include "lg-es.php";
 
 //Add languages
 $t->addLanguage("de",$german,"Deutsch");
 $t->addLanguage("en",$english,"English");
-$t->addLanguage("fr",$french,"Francais");
+$t->addLanguage("fr",$french,"Français");
 $t->addLanguage("it",$italian,"Italiano");
+$t->addLanguage("es",$spanish,"Español");
 
 
 class Translation {
