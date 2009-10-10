@@ -1,5 +1,6 @@
-<p>¡Bienvenido a OpenSeaMap!
-El objetivo de OpenSeaMap! es añadir información sobre turismo náutico-recreativo para marineros interesados en OpenStreetMap y presentarla de manera agradable y útil. Así, se incluye luces marítimas, boyas y otras señales de navegación, información portuaria, talleres de reparación, suministros para embarcaciones y mucho más. También se incluyen otros servicios asociados tales como tiendas, restaurantes y lugares de interés.</p>
+<p>Â¡Bienvenido a OpenSeaMap!
+El objetivo de OpenSeaMap! es aÃ±adir informaciÃ³n sobre turismo nÃ¡utico-recreativo para marineros interesados en OpenStreetMap y presentarla de manera agradable y Ãºtil. AsÃ­, se incluye luces marÃ­timas, boyas y otras seÃ±ales de navegaciÃ³n, informaciÃ³n portuaria, talleres de reparaciÃ³n, suministros para embarcaciones y mucho mÃ¡s. TambiÃ©n se incluyen otros servicios asociados tales como tiendas, restaurantes y lugares de interÃ©s.
+</p>
 <div id="mapLinks">
 	<a href="map/?lang=<?=$t->getCurrentLanguage()?>"><?=$t->tr("VollbildAnzeigen")?></a>
 </div>
