@@ -5,7 +5,7 @@
 <p>
 	<strong>¿Dónde puedo encontrar más información?</strong><br>En la <a href="http://wiki.openstreetmap.org/index.php/es:Main_Page" target="blank">Wiki</a> existe más información sobre:
 	<ul>
-		<li><a href="http://wiki.openstreetmap.org/wiki/de:Seekarte" target="blank">mapa marítimo
+		<li><a href="http://wiki.openstreetmap.org/wiki/de:Seekarte" target="blank">carta náutico
  (en alemán )</a></li>
 		<li><a href="http://wiki.openstreetmap.org/wiki/Marine_Mapping" target="blank">Cartografía marina</a></li>
 		<li><a href="http://wiki.openstreetmap.org/wiki/Harbour" target="blank">Puerto</a></li>
