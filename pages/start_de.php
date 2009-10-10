@@ -1,4 +1,6 @@
-<p>Bisher erstreckt sich OpenStreetMap hauptsächlich über die Kontinente. Die Wasserflächen sind einfach nur "blau". Natürlich findet Verkehr auch auf dem Wasser statt. Daher wird an dieser Stelle analog zur Strassenkarte eine entsprechende Seekarte vorbereitet.</p>
+<p>Willkommen bei OpenSeaMap! 
+Ziel von OpenSeaMap ist es, für den Seemann interessante nautische und touristische Information in die freie Weltkarte einzutragen und in nautisch ansprechender Weise darzustellen. Dazu gehören Leuchtfeuer, Tonnen und andere Seezeichen, Hafen-Informationen, Reparaturwerkstätten, Schiffszubehör und vieles mehr, aber auch Einkaufsmöglichkeiten, Restaurants und Sehenswürdigkeiten. 
+</p>
 <div id="mapLinks">
 	<a href="map/?lang=<?=$t->getCurrentLanguage()?>"><?=$t->tr("VollbildAnzeigen")?></a>
 </div>
