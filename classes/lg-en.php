@@ -85,7 +85,8 @@ $english = array(
 	"yellow"=>"yellow",
 	"character"=>"Character",
 	"period"=>"Period",
-	"haveAccount"=>"Don't have an OSM<br/>Account yet? ",
+	"haveAccount"=>"Don't have an OSM<br/>Account yet?",
+	"zoomToSmall"=>"The zoom level is to small.<br/>Please zoom in.",
 
 	//Network -------------------------------------------------------
 	"send401"=>"Login failed: Incorrect username or password!",

@@ -86,6 +86,7 @@ $german = array(
 	"character"=>"Kennung",
 	"period"=>"Wiederkehr",
 	"haveAccount"=>"Sie haben noch kein<br/>OSM Benutzerkonto?",
+	"zoomToSmall"=>"Der Zoomlevel ist zu klein.<br/>Bitte zoomen sie weiter in die Karte.",
 
 	//Network -------------------------------------------------------
 	"send401"=>"Anmeldung Fehlgeschlagen: Benutzername oder Passwort falsch!",
