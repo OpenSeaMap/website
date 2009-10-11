@@ -26,7 +26,7 @@ Dorfstraße 17
 <p>Este sitio web contiene enlaces a sitios web de terceros. Estos sitios son propiedad y responsabilidad de sus respectivos propietarios. El proveedor ha comprobado los vínculos que se han añadido, al tiempo que verificaba que no eran sitios dañinos. Sin embargo, el proveedor no tiene control sobre las revisiones actualizadas. La prestación de estos enlaces externos no significa que el proveedor controle el contenido de aquellas o asuma la responsabilidad de sus contenidos. Si se notifica la peligrosidad de algún sitio los enlaces serán eliminados.
 </p>
 
-<h5>3. Traducción</h5>
+<h5>4. Traducción</h5>
 
 <p>Nota: Estos textos se han traducido de la versión en inglés y por lo tanto no debe tomarse como completamente fiel al original.
 </p>
