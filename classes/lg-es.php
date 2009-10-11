@@ -1,6 +1,6 @@
 <?php
 
-$espanol = array(
+$spanish = array(
 	"langCode"=>"es",
 	"pageDoesNotExist"=>"Página no encontrada.",
 

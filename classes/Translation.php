@@ -41,9 +41,6 @@ class Translation {
 	var $preferredLanguage;
 	var $languageNames = array();
 
-	function Translation() {
-
-	}
 	/*
 	 * $name - Die Id mit der die Sprache angesprochen wird (z.B. im URL-Parameter)
 	 * $table - Das Array mit den eigentlichen Übersetzungen

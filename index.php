@@ -20,7 +20,7 @@ $p->setDefaultPageLink("?lang=".$t->getCurrentLanguage()."&amp;");
 <head>
 <title>OpenSeaMap - <?=$p->getCurrentPageName()?></title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-language" content="<?= $t->getCurrentLanguage() ?>" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <?php
 /* Include JavaScript if needed */
