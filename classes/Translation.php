@@ -28,9 +28,9 @@ include "lg-es.php";
 //Add languages
 $t->addLanguage("de",$german,"Deutsch");
 $t->addLanguage("en",$english,"English");
+$t->addLanguage("es",$spanish,"Español");
 $t->addLanguage("fr",$french,"Français");
 $t->addLanguage("it",$italian,"Italiano");
-$t->addLanguage("es",$spanish,"Español");
 
 
 class Translation {
