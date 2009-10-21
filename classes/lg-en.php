@@ -45,6 +45,7 @@ $english = array(
 	"userName"=>"Username",
 	"password"=>"Password",
 	"dataLoad"=>"Loading Data.",
+	"loading"=>"Loading",
 	"dataSave"=>"Saving Data.",
 	"changesetCreate"=>"Creating Changeset.",
 	"changesetClose"=>"Closing Changeset.",

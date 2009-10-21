@@ -45,6 +45,7 @@ $german = array(
 	"userName"=>"Benutzername",
 	"password"=>"Passwort",
 	"dataLoad"=>"Daten werden geladen.",
+	"loading"=>"Laden",
 	"dataSave"=>"Daten werden gespeichert.",
 	"changesetCreate"=>"Changeset wird erzeugt.",
 	"changesetClose"=>"Changeset wird geschlossen.",
