@@ -88,6 +88,11 @@ $english = array(
 	"period"=>"Period",
 	"haveAccount"=>"Don't have an OSM<br/>Account yet?",
 	"zoomToSmall"=>"The zoom level is to small.<br/>Please zoom in.",
+	"online_editor"=>"OpenSeaMap - Editor",
+	"about_editor"=>"About Online - Editor",
+	"version"=>"Version",
+	"author"=>"Author",
+	"license"=>"License",
 
 	//Network -------------------------------------------------------
 	"send401"=>"Login failed: Incorrect username or password!",

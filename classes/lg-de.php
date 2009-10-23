@@ -88,6 +88,11 @@ $german = array(
 	"period"=>"Wiederkehr",
 	"haveAccount"=>"Sie haben noch kein<br/>OSM Benutzerkonto?",
 	"zoomToSmall"=>"Der Zoomlevel ist zu klein.<br/>Bitte zoomen sie weiter in die Karte.",
+	"online_editor"=>"OpenSeaMap - Editor",
+	"about_editor"=>"Über Online - Editor",
+	"version"=>"Version",
+	"author"=>"Autor",
+	"license"=>"Lizenz",
 
 	//Network -------------------------------------------------------
 	"send401"=>"Anmeldung Fehlgeschlagen: Benutzername oder Passwort falsch!",
