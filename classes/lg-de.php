@@ -93,6 +93,7 @@ $german = array(
 	"version"=>"Version",
 	"author"=>"Autor",
 	"license"=>"Lizenz",
+	"reportBugs"=>"Bitte verwenden Sie den <a href='http://sourceforge.net/tracker/?func=browse&group_id=273418&atid=1162128' target='blank'>SourceForge Tracker</a><br/>für Problemberichte.",
 
 	//Network -------------------------------------------------------
 	"send401"=>"Anmeldung Fehlgeschlagen: Benutzername oder Passwort falsch!",
@@ -102,6 +103,7 @@ $german = array(
 	"UrlOSM"=>"http://openstreetmap.de",
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Hauptseite",
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap",
+	"UrlGPLV3"=>"http://www.gnu.de/documents/gpl.de.html",
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Legende",
