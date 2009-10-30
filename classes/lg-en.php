@@ -93,6 +93,7 @@ $english = array(
 	"version"=>"Version",
 	"author"=>"Author",
 	"license"=>"License",
+	"historyNode"=>"History of the element",
 	"reportBugs"=>"Please use the <a href='http://sourceforge.net/tracker/?func=browse&group_id=273418&atid=1162128' target='blank'>SourceForge Tracker</a><br/>for bug reports.",
 
 	//Network -------------------------------------------------------
