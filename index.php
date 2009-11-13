@@ -39,8 +39,9 @@ if (($headerFile = $p->makeIncludePageHeader("pages/")) != false) {
 	<div id="menu">
 	<h2><?=$t->tr("SeaChart")?></h2>
 	<ul>
-		<li><a href="map/?zoom=15&lat=54.18459&lon=12.08575&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Warnemünde</a></li>
-		<li><a href="map/?zoom=14&lat=54.3914&lon=10.19366&layers=B0T&amp;lang=<?=$t->getCurrentLanguage()?>">Kieler Förde</a></li>
+		<li><a href="map/?zoom=15&lat=54.18459&lon=12.08575&layers=B0FT&amp;lang=<?=$t->getCurrentLanguage()?>">Warnemünde</a></li>
+		<li><a href="map/?zoom=14&lat=54.3914&lon=10.19366&layers=B0FT&amp;lang=<?=$t->getCurrentLanguage()?>">Kieler Förde</a></li>
+		<li><a href="map/map_edit.php?lang=<?=$t->getCurrentLanguage()?>"><?=$t->tr("edit")?></a></li>
 	</ul>
 	<h2><?=$t->tr("ÜberOpenSeaMap")?></h2>
 	<ul>
