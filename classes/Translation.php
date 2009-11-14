@@ -25,12 +25,16 @@ include "lg-it.php";
 // Spanish
 include "lg-es.php";
 
+// Russian
+include "lg-ru.php";
+
 //Add languages
 $t->addLanguage("de",$german,"Deutsch");
 $t->addLanguage("en",$english,"English");
 $t->addLanguage("es",$spanish,"Español");
 $t->addLanguage("fr",$french,"Français");
 $t->addLanguage("it",$italian,"Italiano");
+$t->addLanguage("ru",$russian,"Русский");
 
 
 class Translation {
