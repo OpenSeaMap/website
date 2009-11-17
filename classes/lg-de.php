@@ -141,6 +141,9 @@ $german = array(
 	"lock"=>"Schleuse",
 	"wier_small"=>"Wehr (klein)",
 	"wier_big"=>"Wehr (groß)",
+
+	// Online-Help --------------------------------------------------
+	"helpPositionDialog"=>"Bitte klicke auf die Karte,<br/>oder gebe die Koordinaten von Hand ein,<br/>um eine neue Position festzulegen.",
 );
 
 ?>

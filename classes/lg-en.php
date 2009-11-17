@@ -141,6 +141,9 @@ $english = array(
 	"lock"=>"Lock",
 	"wier_small"=>"Wier (small)",
 	"wier_big"=>"Wier (big)",
+
+	// Online-Help --------------------------------------------------
+	"helpPositionDialog"=>"Please click on the map,<br/>or enter the coordinates manually,<br/>to set a new position.",
 );
 
 ?>
