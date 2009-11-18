@@ -21,6 +21,7 @@ $p->setDefaultPageLink("?lang=".$t->getCurrentLanguage()."&amp;");
 <title>OpenSeaMap - <?=$p->getCurrentPageName()?></title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta http-equiv="content-language" content="<?= $t->getCurrentLanguage() ?>" />
+<link rel="SHORTCUT ICON" href="./resources/icons/OpenSeaMapLogo_32.png"/>
 <link rel="stylesheet" type="text/css" href="style.css">
 <?php
 /* Include JavaScript if needed */
