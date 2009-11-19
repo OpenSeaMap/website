@@ -33,6 +33,7 @@ $english = array(
 	"language"		=>"Language",
 
 	// Editor--------------------------------------------------------
+	"editSeamark"=>"Edit sea marks",
 	"add"=>"Add",
 	"data"=>"Data",
 	"unknown"=>"Unknown",
@@ -105,6 +106,7 @@ $english = array(
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Main_Page",
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/OpenSeaMap",
 	"UrlGPLV3"=>"http://www.gnu.de/documents/gpl-3.0.en.html",
+	"UrlEditor"=>"./map/map_edit.php?lang=en",
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Map Key",

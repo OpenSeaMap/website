@@ -33,6 +33,7 @@ $german = array(
 	"language"		=>"Sprache",
 
 	// Editor--------------------------------------------------------
+	"editSeamark"=>"Seezeichen Bearbeiten",
 	"add"=>"Hinzufügen",
 	"data"=>"Daten",
 	"unknown"=>"Unbekannt",
@@ -105,6 +106,7 @@ $german = array(
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Hauptseite",
 	"UrlOSMWiki_OpenSeaMap"=>"http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap",
 	"UrlGPLV3"=>"http://www.gnu.de/documents/gpl.de.html",
+	"UrlEditor"=>"./map/map_edit.php?lang=de",
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Legende",

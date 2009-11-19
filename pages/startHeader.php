@@ -1,9 +1,9 @@
 <link rel="stylesheet" type="text/css" href="map.css">
-<script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
 
-		<script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
-		<script type="text/javascript" src="map/haefen.js"></script>
-		<script type="text/javascript">
+<script type="text/javascript" src="./map/javascript/openlayers/OpenLayers.js"></script>
+<script type="text/javascript" src="./map/javascript/OpenStreetMap.js"></script>
+<script type="text/javascript" src="map/haefen.js"></script>
+<script type="text/javascript">
 
 			var map;
 			var layer_mapnik;
