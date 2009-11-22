@@ -146,6 +146,7 @@ $english = array(
 
 	// Online-Help --------------------------------------------------
 	"helpPositionDialog"=>"Please click on the map,<br/>or enter the coordinates manually,<br/>to set a new position.",
+	"helpSeamarkSaved"=>"The sea mark has been saved.<br/>It can take up to two days<br/>before it is visible on the map.",
 );
 
 ?>

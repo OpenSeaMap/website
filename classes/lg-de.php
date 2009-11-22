@@ -146,6 +146,7 @@ $german = array(
 
 	// Online-Help --------------------------------------------------
 	"helpPositionDialog"=>"Bitte klicke auf die Karte,<br/>oder gebe die Koordinaten von Hand ein,<br/>um eine neue Position festzulegen.",
+	"helpSeamarkSaved"=>"Das Seezeichen wurde gespeichert.<br/>Es kann bis zu 2 Tage dauern bevor es<br/>auf der Karte sichtbar ist.",
 );
 
 ?>
