@@ -111,7 +111,7 @@
 				jumpTo(lon, lat, zoom);
 
 				// Add harbour layer
-				init_haefen(map, "./map/");
+				//init_haefen(map, "./map/");
 			}
 		</script>
 
