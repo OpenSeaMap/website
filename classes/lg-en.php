@@ -16,6 +16,7 @@ $english = array(
 	"Startseite"		=>"Main Page",
 	"ÄhnlicheProjekte"	=>"Similar Projects",
 	"SomeRights"		=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
+	"descrSkipperGuide"	=>"Description on SkipperGuide (German)",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Save",
