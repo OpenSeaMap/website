@@ -40,11 +40,11 @@ $french = array(
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Légende",
-	"Hafen"=>"Port",
 	"Seezeichen"=>"Marques nautiques",
 	"Leuchtfeuer"=>"Feux",
 	"BrückenSchleusen"=>"Ponts/Ecluses",
 	//Harbour
+	"harbour"=>"Port",
 	"breakwater"=>"Brise-lames",
 	"pier"=>"Jetée",
 	"crane"=>"Grue",

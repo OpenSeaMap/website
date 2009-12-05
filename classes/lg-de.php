@@ -111,11 +111,12 @@ $german = array(
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Legende",
-	"Hafen"=>"Hafen",
 	"Seezeichen"=>"Seezeichen",
 	"Leuchtfeuer"=>"Leuchtfeuer",
 	"BrückenSchleusen"=>"Brücken/Schleusen",
 	//Harbour
+	"harbour"=>"Hafen",
+	"marina"=>"Marina",
 	"breakwater"=>"Wellenbrecher",
 	"pier"=>"Steg, Schwimmsteg, Seebrücke",
 	"crane"=>"Kran",

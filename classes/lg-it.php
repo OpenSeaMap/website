@@ -40,11 +40,11 @@ $italian = array(
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Legenda",
-	"Hafen"=>"Porto",
 	"Seezeichen"=>"Segnali marittimi",
 	"Leuchtfeuer"=>"Luci",
 	"BrückenSchleusen"=>"Ponti/Sbarramenti",
 	//Harbour
+	"harbour"=>"Porto",
 	"breakwater"=>"Frangiflutti",
 	"pier"=>"Molo",
 	"crane"=>"Gru",

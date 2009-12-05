@@ -116,6 +116,8 @@ $english = array(
 	"Leuchtfeuer"=>"Lights",
 	"BrückenSchleusen"=>"Bridges/Locks",
 	//Harbour
+	"harbour"=>"Harbour",
+	"marina"=>"Marina",
 	"breakwater"=>"Breakwater",
 	"pier"=>"Pier",
 	"crane"=>"Crane",

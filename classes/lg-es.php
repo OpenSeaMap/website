@@ -99,11 +99,11 @@ $spanish = array(
 
 	// Legende ------------------------------------------------------
 	"Legende"=>"Leyenda",
-	"Hafen"=>"Puerto",
 	"Seezeichen"=>"Balizas",
 	"Leuchtfeuer"=>"Luces",
 	"BrückenSchleusen"=>"Puentes/Esclusas",
 	//Harbour
+	"harbour"=>"Puerto",
 	"breakwater"=>"Rompeolas",
 	"pier"=>"Embarcadero",
 	"crane"=>"Grúa",

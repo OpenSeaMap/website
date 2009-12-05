@@ -99,11 +99,11 @@ $russian = array(
 
     // Legende ------------------------------------------------------
     "Legende"=>"Условные обозначения",
-    "Hafen"=>"Гавань",
     "Seezeichen"=>"Морские знаки",
     "Leuchtfeuer"=>"Маяки",
     "BrückenSchleusen"=>"Мосты/шлюзы",
     //Harbour
+	"harbour"=>"Гавань",
     "breakwater"=>"Волнорез",
     "pier"=>"Причал",
     "crane"=>"Кран",
