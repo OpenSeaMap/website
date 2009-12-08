@@ -39,6 +39,7 @@ $english = array(
 	"data"=>"Data",
 	"unknown"=>"Unknown",
 	"comment"=>"Comment",
+	"note"=>"Notes",
 	"logged_in"=>"Welcome",
 	"logged_out"=>"You must be logged in to edit the chart.",
 	"logged_out_save"=>"You must be logged in to save the data.",
