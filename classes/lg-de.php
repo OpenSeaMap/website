@@ -93,6 +93,7 @@ $german = array(
 	"period"=>"Wiederkehr",
 	"haveAccount"=>"Sie haben noch kein<br/>OSM Benutzerkonto?",
 	"zoomToSmall"=>"Die Zoomstufe ist zu klein.<br/>Bitte zoome weiter in die Karte. <br/>Ein Bearbeiten ist ab Stufe 16 möglich.  <br/> Aktueller Zoom: ",
+	"noData"=>"Es konnten keine Daten <br/>geladen werden!",
 	"online_editor"=>"OpenSeaMap - Editor",
 	"about_editor"=>"Über Online - Editor",
 	"version"=>"Version",
@@ -100,6 +101,7 @@ $german = array(
 	"license"=>"Lizenz",
 	"historyNode"=>"Geschichte des Elements",
 	"reportBugs"=>"Bitte verwenden Sie den <a href='http://sourceforge.net/tracker/?func=browse&group_id=273418&atid=1162128' target='blank'>SourceForge Tracker</a><br/>für Problemberichte.",
+
 
 	//Network -------------------------------------------------------
 	"send401"=>"Anmeldung Fehlgeschlagen: Benutzername oder Passwort falsch!",
@@ -152,6 +154,9 @@ $german = array(
 	// Online-Help --------------------------------------------------
 	"helpPositionDialog"=>"Bitte klicke auf die Karte,<br/>oder gebe die Koordinaten von Hand ein,<br/>um eine neue Position festzulegen.",
 	"helpSeamarkSaved"=>"Das Seezeichen wurde gespeichert.<br/>Es kann bis zu 2 Tage dauern bevor es<br/>auf der Karte sichtbar ist.",
+
+	// Error-Messages -----------------------------------------------
+	"xmlLoadError"=>"Fehler: Das Laden der OSM-XML-Datei ist fehlgeschlagen.Bitte wählen Sie einen größeren Zoomlevel, oder versuchen es später noch einmal.",
 );
 
 ?>

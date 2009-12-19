@@ -91,6 +91,7 @@ $english = array(
 	"period"=>"Period",
 	"haveAccount"=>"Don't have an OSM<br/>Account yet?",
 	"zoomToSmall"=>"The zoom level is to small.<br/>Please zoom in.<br/>Editing will be possible on Level 16.<br/>Current Zoom: ",
+	"noData"=>"Failed to load data!",
 	"online_editor"=>"OpenSeaMap - Editor",
 	"about_editor"=>"About Online - Editor",
 	"version"=>"Version",
@@ -151,6 +152,9 @@ $english = array(
 	// Online-Help --------------------------------------------------
 	"helpPositionDialog"=>"Please click on the map,<br/>or enter the coordinates manually,<br/>to set a new position.",
 	"helpSeamarkSaved"=>"The sea mark has been saved.<br/>It can take up to two days<br/>before it is visible on the map.",
+
+	// Error-Messages -----------------------------------------------
+	"xmlLoadError"=>"Error: Loading the OSM-XML-Data failed. Please select a higher zoomlevel, or try again later on.",
 );
 
 ?>
