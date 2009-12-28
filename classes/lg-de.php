@@ -121,6 +121,7 @@ $german = array(
 	"BrückenSchleusen"=>"Brücken/Schleusen",
 	//Harbour
 	"harbour"=>"Hafen",
+	"harbours"=>"Häfen",
 	"marina"=>"Marina",
 	"breakwater"=>"Wellenbrecher",
 	"pier"=>"Steg, Schwimmsteg, Seebrücke",

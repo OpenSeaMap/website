@@ -119,6 +119,7 @@ $english = array(
 	"BrückenSchleusen"=>"Bridges/Locks",
 	//Harbour
 	"harbour"=>"Harbour",
+	"harbours"=>"Harbours",
 	"marina"=>"Marina",
 	"breakwater"=>"Breakwater",
 	"pier"=>"Pier",
