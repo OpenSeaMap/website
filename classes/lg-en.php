@@ -87,6 +87,7 @@ $english = array(
 	"colour"=>"Colour",
 	"red"=>"red",
 	"yellow"=>"yellow",
+	"red_white"=>"Red;Withe;Red",
 	"character"=>"Character",
 	"period"=>"Period",
 	"haveAccount"=>"Don't have an OSM<br/>Account yet?",

@@ -89,6 +89,7 @@ $german = array(
 	"colour"=>"Farbe",
 	"red"=>"Rot",
 	"yellow"=>"Gelb",
+	"red_white"=>"Rot;Weiß;Rot",
 	"character"=>"Kennung",
 	"period"=>"Wiederkehr",
 	"haveAccount"=>"Sie haben noch kein<br/>OSM Benutzerkonto?",
