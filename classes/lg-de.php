@@ -35,6 +35,7 @@ $german = array(
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",
+	"editHarbour"=>"Hafen Bearbeiten",
 	"add"=>"Hinzufügen",
 	"data"=>"Daten",
 	"unknown"=>"Unbekannt",
@@ -60,6 +61,8 @@ $german = array(
 	"seamarkCategory"=>"Art des Zeichens",
 	"seamarkType"=>"Bauart des Zeichens",
 	"seamarkName"=>"Name des Zeichens",
+	"harbourCategory"=>"Art des Hafens",
+	"harbourName"=>"Name des Hafens",
 	"comboUnknown"=>"Unbekannt- - - - - - - - - - - - -",
 	"comboSafeWater"=>"Ansteuerung",
 	"comboPort"=>"Backbord",

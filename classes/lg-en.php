@@ -35,6 +35,7 @@ $english = array(
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",
+	"editHarbour"=>"Edit harbour",
 	"add"=>"Add",
 	"data"=>"Data",
 	"unknown"=>"Unknown",
@@ -60,6 +61,8 @@ $english = array(
 	"seamarkCategory"=>"Sea mark category",
 	"seamarkType"=>"Sea mark shape",
 	"seamarkName"=>"Sea mark name",
+	"harbourCategory"=>"Harbour category",
+	"harbourName"=>"Harbour name",
 	"comboUnknown"=>"Unknown- - - - - - - - - - - - -",
 	"comboSafeWater"=>"Safe water",
 	"comboPort"=>"Port",
