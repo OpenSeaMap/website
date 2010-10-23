@@ -24,6 +24,7 @@ $german = array(
 	"cancel"		=>"Abbrechen",
 	"close"			=>"Schließen",
 	"reload"		=>"Neu Laden",
+	"download"		=>"Herunterladen",
 	"edit"			=>"Bearbeiten",
 	"move"			=>"Verschieben",
 	"delete"		=>"Löschen",
@@ -32,6 +33,10 @@ $german = array(
 	"createAccount"	=>"Benutzerkonto erstellen",
 	"help"			=>"Hilfe",
 	"language"		=>"Sprache",
+	"downloadChart"	=>"Karte Herunterladen",
+
+	// Map-----------------------------------------------------------
+	"pleaseSelect"	=>"Bitte Wählen",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",

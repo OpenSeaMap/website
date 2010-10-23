@@ -23,6 +23,7 @@ $english = array(
 	"ok"			=>"OK",
 	"cancel"		=>"Cancel",
 	"close"			=>"Close",
+	"download"		=>"Download",
 	"reload"		=>"Reload",
 	"edit"			=>"Edit",
 	"move"			=>"Move",
@@ -32,6 +33,10 @@ $english = array(
 	"createAccount"	=>"Create New Account",
 	"help"			=>"Help",
 	"language"		=>"Language",
+	"downloadChart"	=>"Download Chart",
+
+	// Map-----------------------------------------------------------
+	"pleaseSelect"		=>"Please Select",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",
