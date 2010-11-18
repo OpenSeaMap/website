@@ -7,16 +7,17 @@ $german = array(
 	"dieFreieSeekarte"=>"die freie Seekarte",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"			=>"Seekarte",
-	"Vollbild"			=>"Vollbild",
-	"VollbildAnzeigen"	=>"Karte im Vollbild anzeigen",
-	"SeaChart"			=>"Seekarte",
-	"ÜberOpenSeaMap"	=>"Über OpenSeaMap",
-	"Impressum"			=>"Impressum",
-	"Startseite"		=>"Startseite",
-	"ÄhnlicheProjekte"	=>"Ähnliche Projekte",
-	"SomeRights"		=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
-	"descrSkipperGuide"	=>"Beschreibung auf SkipperGuide",
+	"Seekarte"				=>"Seekarte",
+	"Vollbild"				=>"Vollbild",
+	"VollbildAnzeigen"		=>"Karte im Vollbild anzeigen",
+	"SeaChart"				=>"Seekarte",
+	"ÜberOpenSeaMap"		=>"Über OpenSeaMap",
+	"Impressum"				=>"Impressum",
+	"Startseite"			=>"Startseite",
+	"ÄhnlicheProjekte"		=>"Ähnliche Projekte",
+	"SomeRights"			=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
+	"descrSkipperGuide"		=>"Beschreibung auf SkipperGuide",
+	"descrOpenPortGuide"	=>"Wetter auf OpenPortGuide",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Speichern",
@@ -37,6 +38,9 @@ $german = array(
 
 	// Map-----------------------------------------------------------
 	"pleaseSelect"	=>"Bitte Wählen",
+
+	// Weather-------------------------------------------------------
+	"weather"	=>"Wetter",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",

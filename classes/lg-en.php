@@ -7,16 +7,17 @@ $english = array(
 	"dieFreieSeekarte"=>"The free nautical chart",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"			=>"Nautical Chart",
-	"Vollbild"			=>"Fullscreen",
-	"VollbildAnzeigen"	=>"Show Fullscreen",
-	"SeaChart"			=>"Nautical Chart",
-	"ÜberOpenSeaMap"	=>"About OpenSeaMap",
-	"Impressum"			=>"Legal",
-	"Startseite"		=>"Main Page",
-	"ÄhnlicheProjekte"	=>"Similar Projects",
-	"SomeRights"		=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
-	"descrSkipperGuide"	=>"Description on SkipperGuide (German)",
+	"Seekarte"				=>"Nautical Chart",
+	"Vollbild"				=>"Fullscreen",
+	"VollbildAnzeigen"		=>"Show Fullscreen",
+	"SeaChart"				=>"Nautical Chart",
+	"ÜberOpenSeaMap"		=>"About OpenSeaMap",
+	"Impressum"				=>"Legal",
+	"Startseite"			=>"Main Page",
+	"ÄhnlicheProjekte"		=>"Similar Projects",
+	"SomeRights"			=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
+	"descrSkipperGuide"		=>"Description on SkipperGuide (German)",
+	"descrOpenPortGuide"	=>"Weather on OpenPortGuide",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Save",
@@ -37,6 +38,9 @@ $english = array(
 
 	// Map-----------------------------------------------------------
 	"pleaseSelect"		=>"Please Select",
+
+	// Weather-------------------------------------------------------
+	"weather"	=>"Weather",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",
