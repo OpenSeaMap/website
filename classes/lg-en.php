@@ -41,6 +41,7 @@ $english = array(
 
 	// Weather-------------------------------------------------------
 	"weather"	=>"Weather",
+	"time"		=>"Time",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",

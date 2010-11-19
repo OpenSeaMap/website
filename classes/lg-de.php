@@ -41,6 +41,7 @@ $german = array(
 
 	// Weather-------------------------------------------------------
 	"weather"	=>"Wetter",
+	"time"		=>"Zeit",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",
