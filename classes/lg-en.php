@@ -40,10 +40,11 @@ $english = array(
 	"pleaseSelect"		=>"Please Select",
 
 	// Weather-------------------------------------------------------
-	"weather"		=>"Weather",
-	"time"			=>"Time",
-	"wind"			=>"Wind",
-	"AirPressure"	=>"Air Pressure",
+	"weather"			=>"Weather",
+	"time"				=>"Time",
+	"wind"				=>"Wind",
+	"AirPressure"		=>"Air Pressure",
+	"AirTemperature"	=>"Temperature",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",

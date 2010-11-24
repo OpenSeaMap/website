@@ -40,10 +40,11 @@ $german = array(
 	"pleaseSelect"	=>"Bitte Wählen",
 
 	// Weather-------------------------------------------------------
-	"weather"		=>"Wetter",
-	"time"			=>"Zeit",
-	"wind"			=>"Wind",
-	"AirPressure"	=>"Luftdruck",
+	"weather"			=>"Wetter",
+	"time"				=>"Zeit",
+	"wind"				=>"Wind",
+	"AirPressure"		=>"Luftdruck",
+	"AirTemperature"	=>"Temperatur",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",
