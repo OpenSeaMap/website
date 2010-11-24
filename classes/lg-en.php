@@ -45,6 +45,8 @@ $english = array(
 	"wind"				=>"Wind",
 	"AirPressure"		=>"Air Pressure",
 	"AirTemperature"	=>"Temperature",
+	"precipitation"		=>"Precipitation",
+	"WaveHeight"		=>"Wave Height",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",

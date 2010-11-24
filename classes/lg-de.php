@@ -45,6 +45,8 @@ $german = array(
 	"wind"				=>"Wind",
 	"AirPressure"		=>"Luftdruck",
 	"AirTemperature"	=>"Temperatur",
+	"precipitation"		=>"Niederschlag",
+	"WaveHeight"		=>"Wellenhöhe",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",
