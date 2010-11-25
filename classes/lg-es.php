@@ -32,6 +32,15 @@ $spanish = array(
 	"help"			=>"Ayuda",
 	"language"		=>"Idioma",
 
+	// Weather-------------------------------------------------------
+	"weather"			=>"Meteo",
+	"time"				=>"Hora",
+	"wind"				=>"Viento",
+	"AirPressure"		=>"Presión",
+	"AirTemperature"	=>"Temperatura",
+	"precipitation"		=>"Precipitatión",
+	"WaveHeight"		=>"Wave Height",
+
 	// Editor--------------------------------------------------------
 	"add"=>"Añadir",
 	"data"=>"Datos",

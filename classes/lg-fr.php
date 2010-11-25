@@ -7,15 +7,15 @@ $french = array(
 	"dieFreieSeekarte"=>"La cartographie nautique libre",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"=>"Cartographie nautique",
-	"Vollbild"=>"Plein écran",
-	"VollbildAnzeigen"=>"Voir en plein écran",
-	"SeaChart"=>"Cartographie nautique",
-	"ÜberOpenSeaMap"=>"A propos d'OpenSeaMap",
-	"Impressum"=>"Droits",
-	"Startseite"=>"Page principale",
-	"ÄhnlicheProjekte"=>"Projets similaires",
-	"SomeRights"=>"Ce travail est sous licence Creative Commons Attribution-ShareAlike 2.0",
+	"Seekarte"			=>"Cartographie nautique",
+	"Vollbild"			=>"Plein écran",
+	"VollbildAnzeigen"	=>"Voir en plein écran",
+	"SeaChart"			=>"Cartographie nautique",
+	"ÜberOpenSeaMap"	=>"A propos d'OpenSeaMap",
+	"Impressum"			=>"Droits",
+	"Startseite"		=>"Page principale",
+	"ÄhnlicheProjekte"	=>"Projets similaires",
+	"SomeRights"		=>"Ce travail est sous licence Creative Commons Attribution-ShareAlike 2.0",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Save",
@@ -31,7 +31,16 @@ $french = array(
 	"createAccount"	=>"Create New Account",
 	"help"			=>"Help",
 	"language"		=>"Language",
-	
+
+	// Weather-------------------------------------------------------
+	"weather"			=>"Météo",
+	"time"				=>"Heures",
+	"wind"				=>"Vent",
+	"AirPressure"		=>"Pression",
+	"AirTemperature"	=>"Température",
+	"precipitation"		=>"Précipitaions",
+	"WaveHeight"		=>"Hauteur des vagues",
+
 	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.fr",
 	"UrlOSMWiki_Hauptseite"=>"http://wiki.openstreetmap.org/wiki/Page_Principale",
