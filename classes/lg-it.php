@@ -39,7 +39,7 @@ $italian = array(
 	"AirPressure"		=>"Pressione",
 	"AirTemperature"	=>"Temperatura",
 	"precipitation"		=>"Prezipitationi",
-	"WaveHeight"		=>"Wave Height",
+	"WaveHeight"		=>"Altezza dell’onda",
 
 	// Urls ---------------------------------------------------------
 	"UrlOSM"=>"http://openstreetmap.it",

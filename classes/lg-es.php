@@ -39,7 +39,7 @@ $spanish = array(
 	"AirPressure"		=>"Presión",
 	"AirTemperature"	=>"Temperatura",
 	"precipitation"		=>"Precipitatión",
-	"WaveHeight"		=>"Wave Height",
+	"WaveHeight"		=>"Altura de onda",
 
 	// Editor--------------------------------------------------------
 	"add"=>"Añadir",
