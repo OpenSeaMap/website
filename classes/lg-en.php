@@ -18,6 +18,7 @@ $english = array(
 	"SomeRights"			=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
 	"descrSkipperGuide"		=>"Description on SkipperGuide (German)",
 	"descrOpenPortGuide"	=>"Weather on OpenPortGuide",
+	"Werkzeuge"				=>"Tools",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Save",
@@ -47,6 +48,19 @@ $english = array(
 	"AirTemperature"	=>"Temperature",
 	"precipitation"		=>"Precipitation",
 	"WaveHeight"		=>"Wave Height",
+	"tide"				=>"tide",
+	"humidity"			=>"rel. humidity",
+	"clouds"			=>"clouds",
+
+	// Map View------------------------------------------------------
+	"mapview"			=> "Map View",
+	"depth"				=> "water depth",
+	//""				=> "Häfen",
+	""		=> "Taucher",
+	""		=> "Sportlayer (Regatta)",
+	""		=> "Kajakfahrer",
+	""		=> "Binnenschiffer",
+	""		=> "AIS",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Edit sea marks",

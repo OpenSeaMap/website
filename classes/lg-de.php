@@ -18,6 +18,7 @@ $german = array(
 	"SomeRights"			=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
 	"descrSkipperGuide"		=>"Beschreibung auf SkipperGuide",
 	"descrOpenPortGuide"	=>"Wetter auf OpenPortGuide",
+	"Werkzeuge"				=>"Werkzeuge",
 
 	// Buttons-------------------------------------------------------
 	"save"			=>"Speichern",
@@ -47,6 +48,19 @@ $german = array(
 	"AirTemperature"	=>"Temperatur",
 	"precipitation"		=>"Niederschlag",
 	"WaveHeight"		=>"Wellenhöhe",
+	"tide"				=>"Tide",
+	"humidity"			=>"rel. Luftfeuchtigkeit",
+	"clouds"			=>"Bewölkung",
+
+	// Map View------------------------------------------------------
+	"mapview"			=> "Kartenansicht",
+	"depth"				=> "Wassertiefe",
+	//""				=> "Häfen",
+	""		=> "Taucher",
+	""		=> "Sportlayer (Regatta)",
+	""		=> "Kajakfahrer",
+	""		=> "Binnenschiffer",
+	""		=> "AIS",
 
 	// Editor--------------------------------------------------------
 	"editSeamark"=>"Seezeichen Bearbeiten",
