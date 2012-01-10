@@ -35,9 +35,14 @@ $german = array(
 	"language"				=>"Sprache",
 
 	// Map-----------------------------------------------------------
+	"coordinate"			=>"Koordinate",
 	"coordinateGrid"		=>"Koordinatengitter",
+	"course"				=>"Kurs",
+	"distance"				=>"Distanz",
 	"editMapOE"				=>"Karte mit Online Editor",
 	"editMapJOSM"			=>"Karte mit JOSM Remote",
+	"finish"				=>"Ziel",
+	"format"				=>"Format",
 	"gebcoDepth"			=>"Meeresprofil",
 	"downloadChart"			=>"Karte Herunterladen",
 	"help"					=>"Hilfe",
@@ -49,6 +54,7 @@ $german = array(
 	"measuringValue"		=>"Messwert",
 	"pleaseSelect"			=>"Bitte Wählen",
 	"searchResults"			=>"Suchergebnisse",
+	"start"					=>"Start",
 	"tendency"				=>"Tendenz",
 	"tidalScale"			=>"Pegel",
 	"tools"					=>"Werkzeuge",
