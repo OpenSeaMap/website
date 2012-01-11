@@ -44,6 +44,7 @@
 						<li onClick="showWikipediaLinks(true, true)"><a><input type="checkbox" id="checkLayerWikipediaThumbnails"/>&nbsp;Thumbnails</a></li>
 					</ul>
 				</li>
+				<li onClick="showBingAerial()"><a><input type="checkbox" id="checkLayerBingAerial"/>&nbsp;<?=$t->tr("bingaerial")?></a></li>
 			</ul>
 		</li>
 		<li>
