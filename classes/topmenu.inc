@@ -35,6 +35,7 @@
 				<li onClick="showHarbours()"><a><input type="checkbox" id="checkLayerHarbour"/>&nbsp;<?=$t->tr("harbours")?></a></li>
 				<li onClick="showTidalScale()"><a><input type="checkbox" id="checkLayerTidalScale"/>&nbsp;<?=$t->tr("tidalScale")?></a></li>
 				<li onClick="showSport()"><a><input type="checkbox" id="checkLayerSport"/>&nbsp;Sport</a></li>
+				<li onClick="showBingAerial()"><a><input type="checkbox" id="checkLayerBingAerial"/>&nbsp;<?=$t->tr("bingaerial")?></a></li>
 				<li onClick="showGridWGS()"><a><input type="checkbox" id="checkLayerGridWGS"/>&nbsp;<?=$t->tr("coordinateGrid")?></a></li>
 				<li onClick="showGebcoDepth()"><a><input type="checkbox" id="checkLayerGebcoDepth"/>&nbsp;<?=$t->tr("gebcoDepth")?></a></li>
 				<li onClick="showWikipediaLinks(false, false)">
@@ -44,7 +45,6 @@
 						<li onClick="showWikipediaLinks(true, true)"><a><input type="checkbox" id="checkLayerWikipediaThumbnails"/>&nbsp;Thumbnails</a></li>
 					</ul>
 				</li>
-				<li onClick="showBingAerial()"><a><input type="checkbox" id="checkLayerBingAerial"/>&nbsp;<?=$t->tr("bingaerial")?></a></li>
 			</ul>
 		</li>
 		<li>
