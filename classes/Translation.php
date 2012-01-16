@@ -4,7 +4,11 @@
 $t = new Translation();
 
 /* Aktuell ausgewählte Sprache soll der URL-Parameter 'lang' (...?lang=de) sein */
-$t->setCurrentLanguage($_GET['lang']);
+if (array_key_exists('lang', $_GET) === true) {
+	$t->setCurrentLanguage($_GET['lang']);
+} else {
+	$t->setCurrentLanguage('');
+}
 
 // Define the default language
 $t->setDefaultLanguage("en");
@@ -118,12 +122,24 @@ class Translation {
 		foreach ($array as $key => $value) {
 			$split = explode(";",$value);
 			$langcode = $split[0];
-			$temp = explode("=",$split[1]);
-			$quality = $temp[1] != "" ? $temp[1] : 1;
+			if (count($split) > 1) {
+				$temp = explode("=",$split[1]);
+			} else {
+				$temp = array();
+			}
+			if (count($temp) > 1) {
+				$quality = $temp[1] != "" ? $temp[1] : 1;
+			} else {
+				$quality = 1;
+			}
 
 			$langcodeArray = explode("-",$langcode);
 			$langcodeLanguage = $langcodeArray[0];
-			$langcodeCountry = $langcodeArray[1];
+			if (count($langcodeArray) > 1) {
+				$langcodeCountry = $langcodeArray[1];
+			} else {
+				$langcodeCountry = $langcodeLanguage;
+			}
 			$preferredLanguages[] = array(
 				"language"=>$langcodeLanguage,
 				"country"=>$langcodeCountry,
