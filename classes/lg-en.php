@@ -46,6 +46,7 @@ $english = array(
 	"downloadChart"			=>"Download Chart",
 	"bingaerial"			=>"Aerial photo",
 	"ais"					=>"Marine Traffic",
+	"satpro"				=>"SatPro",
 	"help"					=>"Help",
 	"help-oe"				=>"Online-Editor",
 	"help-josm"				=>"JOSM",

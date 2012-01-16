@@ -46,6 +46,7 @@
 					</ul>
 				</li>
 				<li onClick="showAis()"><a><input type="checkbox" id="checkLayerAis"/>&nbsp;<?=$t->tr("ais")?></a></li>
+				<li onClick="showSatPro()"><a><input type="checkbox" id="checkLayerSatPro"/>&nbsp;<?=$t->tr("satpro")?></a></li>
 			</ul>
 		</li>
 		<li>
