@@ -45,6 +45,7 @@ $german = array(
 	"format"				=>"Format",
 	"gebcoDepth"			=>"Meeresprofil",
 	"bingaerial"			=>"Luftbild",
+	"ais"					=>"Marine Traffic",
 	"downloadChart"			=>"Karte Herunterladen",
 	"help"					=>"Hilfe",
 	"help-oe"				=>"Online-Editor",

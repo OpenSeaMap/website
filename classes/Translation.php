@@ -79,6 +79,14 @@ class Translation {
 		// Aktuelle Sprache ist entweder die manuell gesetzte oder die als bevorzugt gesetzte
 		return $this->currentLanguage != "" ? $this->currentLanguage : $this->getPreferredLanguage();
 	}
+	function getCurrentLanguageSafe() {
+		$lang = $this->getCurrentLanguage();
+		if ($lang == 'de' || $lang = 'en') {
+			return $lang;
+		} else {
+			return 'en';
+		}
+	}
 	// Bevorzugte Sprache
 	function setPreferredLanguage($name) {
 		$this->preferredLanguage = $name;

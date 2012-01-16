@@ -45,6 +45,7 @@ $english = array(
 	"gebcoDepth"			=>"Marine Profile",
 	"downloadChart"			=>"Download Chart",
 	"bingaerial"			=>"Aerial photo",
+	"ais"					=>"Marine Traffic",
 	"help"					=>"Help",
 	"help-oe"				=>"Online-Editor",
 	"help-josm"				=>"JOSM",

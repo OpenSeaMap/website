@@ -45,6 +45,7 @@
 						<li onClick="showWikipediaLinks(true, true)"><a><input type="checkbox" id="checkLayerWikipediaThumbnails"/>&nbsp;Thumbnails</a></li>
 					</ul>
 				</li>
+				<li onClick="showAis()"><a><input type="checkbox" id="checkLayerAis"/>&nbsp;<?=$t->tr("ais")?></a></li>
 			</ul>
 		</li>
 		<li>
