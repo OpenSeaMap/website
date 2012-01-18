@@ -47,6 +47,7 @@ $german = array(
 	"bingaerial"			=>"Luftbild",
 	"ais"					=>"Marine Traffic",
 	"satpro"				=>"SatPro",
+	"disaster"				=>"Havarie",
 	"downloadChart"			=>"Karte Herunterladen",
 	"help"					=>"Hilfe",
 	"help-oe"				=>"Online-Editor",
