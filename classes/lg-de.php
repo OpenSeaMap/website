@@ -1,20 +1,16 @@
 <?php
 
+//updated 2012-06-02
 $german = array(
 	"langCode"=>"de",
 	"pageDoesNotExist"=>"Seite nicht gefunden.",
 	"dieFreieSeekarte"=>"die freie Seekarte",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"				=>"Seekarte",
-	"Vollbild"				=>"Vollbild",
-	"VollbildAnzeigen"		=>"Karte im Vollbild anzeigen",
 	"SeaChart"				=>"Seekarte",
-	"ÜberOpenSeaMap"		=>"Über OpenSeaMap",
-	"Impressum"				=>"Impressum",
-	"Startseite"			=>"Startseite",
-	"ÄhnlicheProjekte"		=>"Ähnliche Projekte",
+	"Imprint"				=>"Impressum",
 	"SomeRights"			=>"Diese Seite ist unter der Lizenz Creative Commons Attribution-ShareAlike 2.0 verfügbar.",
+	"OpenPortGuide"			=>"Alle Wetterinformationen entstammen dem OpenPortGuide-Projekt",
 	"descrSkipperGuide"		=>"Hafenhandbuch",
 	"descrOpenPortGuide"	=>"Meteogramm",
 
@@ -39,6 +35,7 @@ $german = array(
 	"coordinateGrid"		=>"Koordinatengitter",
 	"course"				=>"Kurs",
 	"distance"				=>"Distanz",
+	"development"			=>"Entwicklung",
 	"editMapOE"				=>"Karte mit Online Editor",
 	"editMapJOSM"			=>"Karte mit JOSM Remote",
 	"finish"				=>"Ziel",
@@ -52,6 +49,7 @@ $german = array(
 	"help"					=>"Hilfe",
 	"help-oe"				=>"Online-Editor",
 	"help-josm"				=>"JOSM",
+	"help-online"			=>"Onlinehilfe",
 	"help-tidal-scale"		=>"Pegel",
 	"help-website-int"		=>"Webseite",
 	"hydrographCurve"		=>"Gangline",
@@ -64,6 +62,7 @@ $german = array(
 	"tools"					=>"Werkzeuge",
 	"tripPlanner"			=>"Törnplaner",
 	"view"					=>"Ansicht",
+	"water_depth"			=>"Wassertiefen",
 	"wikiHelp"				=>"Wiki-Hilfe",
 
 	// Weather-------------------------------------------------------
@@ -161,21 +160,23 @@ $german = array(
 	"UrlEditor"=>"./map/map_edit.php?lang=de",
 
 	// Legende ------------------------------------------------------
-	"about"=>"Über NauticalChart",
+	"about"=>"Über OpenSeaMap",
 	"Legende"=>"Legende",
 	"Seezeichen"=>"Seezeichen",
 	"Leuchtfeuer"=>"Leuchtfeuer",
 	"BrückenSchleusen"=>"Brücken/Schleusen",
 
 	//Harbour -------------------------------------------------------
+	"anchorage"=>"Ankerplatz",
+	"breakwater"=>"Wellenbrecher",
+	"crane"=>"Kran",
+	"fishing_harbour"=>"Fisherei Hafen",
 	"harbour"=>"Hafen",
 	"harbours"=>"Häfen",
-	"marina"=>"Marina",
-	"breakwater"=>"Wellenbrecher",
-	"pier"=>"Steg, Schwimmsteg, Seebrücke",
-	"crane"=>"Kran",
-	"slipway"=>"Bootsrampe, Slipanlage",
 	"harbour_master"=>"Hafenmeister",
+	"marina"=>"Marina",
+	"pier"=>"Steg, Schwimmsteg, Seebrücke",
+	"slipway"=>"Bootsrampe, Slipanlage",
 	"waste_disposal"=>"Fäkalienentsorgung",
 	//Seamarks
 	"safe_water"=>"Sicheres Fahrwasser, Ansteuerung",
@@ -198,14 +199,7 @@ $german = array(
 	"lock_gate"=>"Schleusentor",
 	"lock"=>"Schleuse",
 	"wier_small"=>"Wehr (klein)",
-	"wier_big"=>"Wehr (groß)",
-
-	// Online-Help --------------------------------------------------
-	"helpPositionDialog"=>"Bitte klicke auf die Karte,<br/>oder gebe die Koordinaten von Hand ein,<br/>um eine neue Position festzulegen.",
-	"helpSeamarkSaved"=>"Das Seezeichen wurde gespeichert.<br/>Es kann bis zu 2 Tage dauern bevor es<br/>auf der Karte sichtbar ist.",
-
-	// Error-Messages -----------------------------------------------
-	"xmlLoadError"=>"Fehler: Das Laden der OSM-XML-Datei ist fehlgeschlagen.Bitte wählen Sie einen größeren Zoomlevel, oder versuchen es später noch einmal.",
+	"wier_big"=>"Wehr (groß)"
 );
 
 ?>

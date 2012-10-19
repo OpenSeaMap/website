@@ -1,20 +1,16 @@
 <?php
 
+//updated 2012-06-02
 $english = array(
 	"langCode"=>"en",
 	"pageDoesNotExist"=>"Page not found.",
 	"dieFreieSeekarte"=>"The free nautical chart",
 
 	// Menu ---------------------------------------------------------
-	"Seekarte"				=>"Nautical Chart",
-	"Vollbild"				=>"Fullscreen",
-	"VollbildAnzeigen"		=>"Show Fullscreen",
 	"SeaChart"				=>"Nautical Chart",
-	"ÜberOpenSeaMap"		=>"About OpenSeaMap",
-	"Impressum"				=>"Legal",
-	"Startseite"			=>"Main Page",
-	"ÄhnlicheProjekte"		=>"Similar Projects",
+	"Imprint"				=>"Legal",
 	"SomeRights"			=>"This work is licensed under the Creative Commons Attribution-ShareAlike 2.0 License",
+	"OpenPortGuide"			=>"All Weather information originate from the OpenPortGuide-Project",
 	"descrSkipperGuide"		=>"Port pilot",
 	"descrOpenPortGuide"	=>"Meteogramm",
 
@@ -23,6 +19,7 @@ $english = array(
 	"ok"					=>"OK",
 	"cancel"				=>"Cancel",
 	"close"					=>"Close",
+	"reload"				=>"Reload",
 	"download"				=>"Download",
 	"reload"				=>"Reload",
 	"edit"					=>"Edit",
@@ -37,6 +34,7 @@ $english = array(
 	"coordinate"			=>"Coordinate",
 	"coordinateGrid"		=>"Coordinate Grid",
 	"course"				=>"Course",
+	"development"			=>"Development",
 	"distance"				=>"Distance",
 	"editMapOE"				=>"Map with Online Editor",
 	"editMapJOSM"			=>"Map with JOSM Remote",
@@ -53,6 +51,7 @@ $english = array(
 	"help-josm"				=>"JOSM",
 	"help-tidal-scale"		=>"Tidal Scale",
 	"help-website-int"		=>"Website",
+	"help-online"			=>"Online help",
 	"hydrographCurve"		=>"Hydrograph Curve",
 	"measuringValue"		=>"Measuring Value",
 	"pleaseSelect"			=>"Please Select",
@@ -63,6 +62,7 @@ $english = array(
 	"tools"					=>"Tools",
 	"tripPlanner"			=>"Trip Planner",
 	"view"					=>"View",
+	"water_depth"			=>"Water depth",
 	"wikiHelp"				=>"Help (Wiki)",
 
 	// Weather-------------------------------------------------------
@@ -156,21 +156,25 @@ $english = array(
 	"UrlGPLV3"=>"http://www.gnu.de/documents/gpl-3.0.en.html",
 	"UrlEditor"=>"./map/map_edit.php?lang=en",
 
-	// Legende ------------------------------------------------------
+	// Map key ------------------------------------------------------
+	"about"=>"About OpenSeaMap",
 	"Legende"=>"Map Key",
 	"Hafen"=>"Harbour",
 	"Seezeichen"=>"Sea Marks",
 	"Leuchtfeuer"=>"Lights",
 	"BrückenSchleusen"=>"Bridges/Locks",
-	//Harbour
+
+	//Harbour -------------------------------------------------------
+	"anchorage"=>"Anchorage",
+	"breakwater"=>"Breakwater",
+	"crane"=>"Crane",
+	"fishing_harbour"=>"Fishing Harbour",
 	"harbour"=>"Harbour",
 	"harbours"=>"Harbours",
-	"marina"=>"Marina",
-	"breakwater"=>"Breakwater",
-	"pier"=>"Pier",
-	"crane"=>"Crane",
-	"slipway"=>"Slipway",
 	"harbour_master"=>"Harbour Master",
+	"marina"=>"Marina",
+	"pier"=>"Pier",
+	"slipway"=>"Slipway",
 	"waste_disposal"=>"Waste Disposal",
 	//Seamarks
 	"safe_water"=>"Safe water",
@@ -193,14 +197,7 @@ $english = array(
 	"lock_gate"=>"Lock gate",
 	"lock"=>"Lock",
 	"wier_small"=>"Wier (small)",
-	"wier_big"=>"Wier (big)",
-
-	// Online-Help --------------------------------------------------
-	"helpPositionDialog"=>"Please click on the map,<br/>or enter the coordinates manually,<br/>to set a new position.",
-	"helpSeamarkSaved"=>"The sea mark has been saved.<br/>It can take up to two days<br/>before it is visible on the map.",
-
-	// Error-Messages -----------------------------------------------
-	"xmlLoadError"=>"Error: Loading the OSM-XML-Data failed. Please select a higher zoomlevel, or try again later on.",
+	"wier_big"=>"Wier (big)"
 );
 
 ?>
